@@ -1,0 +1,6 @@
+n1=int(input())
+n=set(input().split())
+b1=int(input())
+b=set(input().split())
+u= n|b
+print(len(u))
